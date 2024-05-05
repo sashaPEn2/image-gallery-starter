@@ -121,7 +121,7 @@ export default function SharedModal({
                     href={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/${currentImage.public_id}.${currentImage.format}`}
                     className="rounded-full bg-black/50 p-2 text-white/75 backdrop-blur-lg transition hover:bg-black/75 hover:text-white"
                     target="_blank"
-                    title="Open fullsize version"
+                    title="Открыть полноразмерную версию"
                     rel="noreferrer"
                   >
                     <ArrowTopRightOnSquareIcon className="h-5 w-5" />
@@ -145,7 +145,7 @@ export default function SharedModal({
                     )
                   }
                   className="rounded-full bg-black/50 p-2 text-white/75 backdrop-blur-lg transition hover:bg-black/75 hover:text-white"
-                  title="Скачать фотографию"
+                  title="Скачать полноразмерную фотографию"
                 >
                   <ArrowDownTrayIcon className="h-5 w-5" />
                 </button>
