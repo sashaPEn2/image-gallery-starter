@@ -131,7 +131,7 @@ export default function SharedModal({
                     href={`https://twitter.com/intent/tweet?text=Check%20out%20this%20pic%20from%20Next.js%20Conf!%0A%0Ahttps://nextjsconf-pics.vercel.app/p/${index}`}
                     className="rounded-full bg-black/50 p-2 text-white/75 backdrop-blur-lg transition hover:bg-black/75 hover:text-white"
                     target="_blank"
-                    title="Open fullsize version"
+                    title="Открыть полноразмерную версию"
                     rel="noreferrer"
                   >
                     <Twitter className="h-5 w-5" />
@@ -145,7 +145,7 @@ export default function SharedModal({
                     )
                   }
                   className="rounded-full bg-black/50 p-2 text-white/75 backdrop-blur-lg transition hover:bg-black/75 hover:text-white"
-                  title="Download fullsize version"
+                  title="Скачать фотографию"
                 >
                   <ArrowDownTrayIcon className="h-5 w-5" />
                 </button>
