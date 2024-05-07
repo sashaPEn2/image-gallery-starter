@@ -90,7 +90,8 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
-       Сайт создан с помощью Next.js, Vercel и Cloudinary.
+       <p>Сайт создан с помощью Next.js, Vercel и Cloudinary.</p>
+       <p>2024 © 10А Столинской государственной гимназии.</p>
       </footer>
     </>
   )
