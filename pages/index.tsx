@@ -31,7 +31,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
     <>
       <Head>
         <title>Фотографии 10А Столинской государственной гимназии — 2024</title>
-        <meta name="yandex-verification" content="fc102d0c0a6d5a49" />
+        <meta name="yandex-verification" content="3137c5021820afc3" />
       </Head>
       <main className="mx-auto max-w-[1960px] p-4">
         {photoId && (
