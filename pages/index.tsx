@@ -93,7 +93,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
       <footer className="p-6 text-center text-white/80 sm:p-12">
         <p>Сайт создан с помощью Next.js, Vercel и Cloudinary.</p>
         <p>2024 © 10А Столинской государственной гимназии.</p>
-        <p>Фотографии лицензируются под лицензией <a href="https://creativecommons.org/licenses/by-nd/4.0/deed.ru" target="_blank" rel="license noopener noreferrer">Creative Commons Attribution-NoDerivatives 4.0 International</a></p>
+        <p>Фотографии доступны по лицензии <a href="https://creativecommons.org/licenses/by-nd/4.0/deed.ru" target="_blank" rel="license noopener noreferrer">Creative Commons Attribution-NoDerivatives 4.0 International</a></p>
       </footer>
     </>
   )
